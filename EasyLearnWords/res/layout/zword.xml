@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@color/white" >
+    
+     <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    
+    
+     <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1,2,3" 
+        android:background="@color/brown"
+        >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+            
+            <TextView 
+                android:id="@+id/leveltext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                   
+                   />
+            <TextView 
+                android:id="@+id/wordtext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                   
+                   />
+                
+            
+            
+        </TableRow>
+    </TableLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        >
+
+        <ImageButton
+            android:id="@+id/wenhaobutton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:src="@drawable/wenhao"
+            android:layout_weight="1"
+             />
+
+        <TextView
+            android:id="@+id/wrtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="time"
+            android:textSize="40sp" />
+        
+    <TextView 
+                android:id="@+id/scoretext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0%"
+                android:textSize="40sp"
+                android:layout_weight="1"
+                />
+</LinearLayout>
+   
+    
+    
+    <TextView 
+        android:id="@+id/definition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Definition"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        
+        
+        />
+    
+ 
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+                    android:layout_margin="2dp"
+        
+        
+       >
+
+        <TextView
+            android:id="@+id/word1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:gravity="center"
+            android:text="test"
+            android:textSize="25sp" 
+			android:layout_weight="1"
+			android:textColor="@color/white"
+			            android:layout_margin="1dp"
+			
+            />
+
+        <TextView
+            android:id="@+id/word2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:gravity="center"
+            android:textSize="25sp" 
+            			android:layout_weight="1"
+            			android:textColor="@color/white"
+                        android:layout_margin="1dp"
+            
+            />
+
+        <TextView
+            android:id="@+id/word3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:gravity="center"
+            android:textSize="25sp" 
+            android:layout_weight="1"
+            android:textColor="@color/white"
+                        android:layout_margin="1dp"
+            
+            />
+        
+        <TextView
+            android:id="@+id/word4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="25sp" 
+            android:layout_weight="1"
+                        android:layout_margin="1dp"
+            
+            />
+    </LinearLayout>
+
+    
+
+</LinearLayout>
+

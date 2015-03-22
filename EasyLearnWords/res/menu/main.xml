@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.easylearnwords.MainActivity" >
+
+    <item
+        android:id="@+id/Exit"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="Exit App">
+      
+    </item>
+
+</menu>

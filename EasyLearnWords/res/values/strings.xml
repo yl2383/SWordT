@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SWordT</string>
+     <string name="app_name_label"> SWordT</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="course">Categories</string>
+    <string name="level1">Level1:\nDefine vocabulary and roots</string>
+    <string name="level2">Level2:\nBreak words into roots </string>
+    <string name="level3">Level3:\nFill in the missing root</string>
+    <string name="level4">Level4:\nTime:Define vocabulary and roots</string>
+    <string name="level5">Level5:\nDefine vocabulary and roots</string>
+    <string name="level6">Level6:\nDefine vocabulary and roots</string>
+    <string name="level7">Level7:\nDefine vocabulary and roots</string>
+    <string name="level8">Level8:\nDefine vocabulary and roots</string>
+    
+        <string name="defwordhelp"> construction </string>
+    <string name="roothelp"> construction </string>
+    <string name="idroothelp"> construction </string>
+    <string name="missroothelp">construction </string>
+    
+    
+    <string name="greenhelp">construction </string>
+    <string name="sleeptime">2000</string>
+    
+    <string name="buttonvolume">1.0</string>
+      <string name="musicvolume">0.1</string>
+
+
+</resources>

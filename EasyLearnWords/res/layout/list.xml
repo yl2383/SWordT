@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#60c0ff"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#60c0ff"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_horizontal_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button1"
+            android:layout_centerVertical="true"
+            android:background="@drawable/transparent"
+            android:text="Study WordList" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/transparent"
+            android:text="REVIEW" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button2"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/transparent"
+            android:text="PLAY" />
+    </RelativeLayout>
+
+</LinearLayout>
